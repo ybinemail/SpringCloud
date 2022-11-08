@@ -1,5 +1,5 @@
 server:
-  port: 8001 #指定运行端口
+  port: 8000 #指定运行端口
 spring:
   application:
     name: eureka-server #指定服务名称

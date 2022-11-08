@@ -8,7 +8,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8001/eureka/
+      defaultZone: http://localhost:8000/eureka/
 turbine:
   app-config: hystrix-service #指定需要收集信息的服务名称
   cluster-name-expression: new String('default') #指定服务所属集群

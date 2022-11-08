@@ -7,8 +7,10 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * Created by macro on 2019/9/5.
+ * Created by Robin on 2020/3/5.
+ *
  */
+//UserService接口是对user-service服务的接口的绑定，可以对比UserServiceController
 @FeignClient(value = "user-service",fallback = UserFallbackService.class)
 public interface UserService {
     @PostMapping("/user/create")

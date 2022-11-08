@@ -6,7 +6,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * Created by macro on 2019/9/5.
+ * Created by Robin on 2020/3/5.
  */
 @FeignClient(value = "nacos-user-service")
 public interface UserService {

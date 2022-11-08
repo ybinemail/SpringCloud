@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created by macro on 2019/8/29.
+ * Created by Robin on 2020/1/29.
  */
 @Service
 public class UserServiceImpl implements UserService {
@@ -62,6 +62,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @PostConstruct
+    //@PostConstruct注解的方法在项目启动的时候执行这个方法，也可以理解为在spring容器启动的时候执行，可作为一些数据的常规化加载，比如数据字典之类的。
     public void initData() {
         userList = new ArrayList<>();
         userList.add(new User(1L, "macro", "123456"));

@@ -10,7 +10,7 @@ import org.springframework.http.client.support.HttpRequestWrapper;
 
 /**
  * LoadBalancer相关配置
- * Created by macro on 2022/7/26.
+ * Created by Robin on 2022/7/26.
  */
 @Configuration
 public class LoadBalancerConfig {

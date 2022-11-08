@@ -7,7 +7,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 /**
  * 在接口上配置权限时使用
- * Created by macro on 2019/10/11.
+ * Created by Robin on 2019/10/11.
  */
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true)

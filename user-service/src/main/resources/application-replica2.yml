@@ -1,20 +1,16 @@
 server:
-  port: 8301
+  port: 8202
 spring:
   application:
-    name: ribbon-service
+    name: user-service
   zipkin:
     base-url: http://localhost:9411
   sleuth:
     sampler:
       probability: 0.1
-#  zipkin:
-#    base-url: http://localhost:9411
 eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8000/eureka/
-service-url:
-  user-service: http://user-service

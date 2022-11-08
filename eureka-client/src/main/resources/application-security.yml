@@ -8,4 +8,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://macro:123456@localhost:8004/eureka/
+      defaultZone: http://macro:123456@localhost:8003/eureka/

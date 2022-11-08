@@ -22,7 +22,7 @@ import java.util.List;
 
 /**
  * 认证服务器配置
- * Created by macro on 2019/9/30.
+ * Created by Robin on 2020/3/30.
  */
 @Configuration
 @EnableAuthorizationServer

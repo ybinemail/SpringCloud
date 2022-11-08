@@ -1,7 +1,7 @@
 package com.macro.cloud.domain;
 
 /**
- * Created by macro on 2019/8/29.
+ * Created by Robin on 2020/1/29.
  */
 public class CommonResult<T> {
     private T data;

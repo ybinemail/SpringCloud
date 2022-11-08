@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * Jwt内容增强器
- * Created by macro on 2019/10/8.
+ * Created by Robin on 2019/10/8.
  */
 public class JwtTokenEnhancer implements TokenEnhancer {
     @Override

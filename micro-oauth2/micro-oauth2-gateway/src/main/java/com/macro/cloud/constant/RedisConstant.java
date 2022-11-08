@@ -1,7 +1,7 @@
 package com.macro.cloud.constant;
 
 /**
- * Created by macro on 2020/6/19.
+ * Created by Robin on 2020/6/19.
  */
 public class RedisConstant {
 

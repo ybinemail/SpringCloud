@@ -23,7 +23,7 @@ import reactor.core.publisher.Mono;
 
 /**
  * 资源服务器配置
- * Created by macro on 2020/6/19.
+ * Created by Robin on 2020/6/19.
  */
 @AllArgsConstructor
 @Configuration

@@ -8,7 +8,7 @@ import org.springframework.security.web.authentication.SavedRequestAwareAuthenti
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
 /**
- * Created by macro on 2019/9/30.
+ * Created by Robin on 2020/3/30.
  */
 @Configuration
 public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {

@@ -7,7 +7,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * Created by macro on 2019/8/29.
+ * Created by Robin on 2020/1/29.
  */
 public class User implements UserDetails {
 

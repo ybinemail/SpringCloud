@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 获取登录用户信息
- * Created by macro on 2020/6/17.
+ * Created by Robin on 2020/6/17.
  */
 @Component
 public class LoginUserHolder {

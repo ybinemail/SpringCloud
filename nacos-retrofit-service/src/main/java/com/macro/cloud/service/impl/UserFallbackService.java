@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 熔断降级处理类
- * Created by macro on 2019/9/5.
+ * Created by Robin on 2020/3/5.
  */
 @Component
 public class UserFallbackService implements UserService {

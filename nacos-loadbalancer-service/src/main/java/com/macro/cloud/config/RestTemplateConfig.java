@@ -12,7 +12,7 @@ import java.time.Duration;
 
 /**
  * RestTemplate相关配置
- * Created by macro on 2019/8/29.
+ * Created by Robin on 2020/1/29.
  */
 @Configuration
 public class RestTemplateConfig {

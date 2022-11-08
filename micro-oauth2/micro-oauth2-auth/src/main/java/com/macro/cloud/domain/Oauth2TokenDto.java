@@ -6,7 +6,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * Oauth2获取Token返回信息封装
- * Created by macro on 2020/7/17.
+ * Created by Robin on 2020/7/17.
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

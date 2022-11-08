@@ -6,7 +6,7 @@ import com.macro.cloud.service.UserService;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by macro on 2019/9/5.
+ * Created by Robin on 2020/3/5.
  */
 @Component
 public class UserFallbackService implements UserService {

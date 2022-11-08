@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 限流功能
- * Created by macro on 2019/11/7.
+ * Created by Robin on 2019/11/7.
  */
 @Api(tags = "RateLimitController",description = "限流功能")
 @RestController

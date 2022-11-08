@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * 用户信息类
- * Created by macro on 2020/6/19.
+ * Created by Robin on 2020/6/19.
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

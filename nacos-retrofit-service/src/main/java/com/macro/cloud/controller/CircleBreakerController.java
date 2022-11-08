@@ -18,7 +18,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * 熔断降级
- * Created by macro on 2019/11/7.
+ * Created by Robin on 2019/11/7.
  */
 @Api(tags = "CircleBreakerController",description = "熔断降级")
 @RestController
