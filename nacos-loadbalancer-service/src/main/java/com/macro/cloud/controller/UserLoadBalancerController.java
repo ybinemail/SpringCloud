@@ -16,6 +16,7 @@ import org.springframework.web.client.RestTemplate;
 public class UserLoadBalancerController {
     @Autowired
     private RestTemplate restTemplate;
+
     @Value("${service-url.nacos-user-service}")
     private String userServiceUrl;
 
